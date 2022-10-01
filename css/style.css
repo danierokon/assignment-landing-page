@@ -67,5 +67,36 @@ button {
     color: #F9FAF8;
     border-radius: 25px;
     max-width: 100px;
+    border-color: #3882f6;
+}
+
+
+
+.img-subtext img{
+    max-width : 300px;        
+}
+
+.info2{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.img-subtext{
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;       
+    flex-wrap: wrap;
+    }
+
+.set1, .set2, .set3, .set4{
+    max-width: 300px;        
+}
+.info2head{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;    
+    align-self: center;
+    padding-top: 40px;
 }
 
