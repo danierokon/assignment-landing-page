@@ -110,6 +110,7 @@ button {
 }
 .quote-container{
     max-width: 800px;    
+    margin: 6rem;
 }
 .quote{
     font-size: 36px;
@@ -124,5 +125,50 @@ button {
     color: black;    
     display: flex;
     flex-direction: row-reverse;    
+    
+}
+
+.info4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info4container{
+    background-color: #3882f6;
+    max-width: 1200px;
+    border-radius: 14px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 160px;
+    gap: 7rem;
+    margin: 6rem auto;
+}
+.info4left{
+    color: #F9FAF8
+}
+.info4-title{
+    font-weight: 900;
+    font-size: 26px;
+}
+.info4-subtext{
+    font-size: 16px;
+}
+.info4-button{
+    font-weight: 900;
+    font-size: 18px;
+    border-color: #F9FAF8;
+    border-radius: 15px;    
+    width: 250px;    
+}
+
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px;
+    display: flex;    
+    justify-content: center;
     
 }
