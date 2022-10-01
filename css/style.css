@@ -100,3 +100,29 @@ button {
     padding-top: 40px;
 }
 
+.info3{    
+    background-color: #E5E7EB;   
+    display:flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center; 
+    
+}
+.quote-container{
+    max-width: 800px;    
+}
+.quote{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;     
+}
+.author {
+    font-size: 22px;
+    font-weight: 700; 
+    font-style: normal;
+    color: black;    
+    display: flex;
+    flex-direction: row-reverse;    
+    
+}
